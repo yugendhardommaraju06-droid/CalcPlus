@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CalcPlus</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="login-body">
+
+    <div class="login-box">
+        <h1>CalcPlus</h1>
+        <p>Click below to open calculator</p>
+
+        <form action="/calculator">
+            <button type="submit">Open Calculator</button>
+        </form>
+    </div>
+
+</body>
+</html>
